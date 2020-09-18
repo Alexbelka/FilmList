@@ -1,0 +1,47 @@
+
+.film{
+  width:460px;
+  min-height: 395px;
+  display: grid;
+  grid-template-rows: (202/395)*100% (144/395)*100% (49/395)*100%;
+  box-shadow: 0 0 1px 1px rgb(200,200,200);
+}
+
+.film__pic--barbarian{
+  background: url('../img/Barbarian.png');
+  //background-color: red;
+}
+
+.film__pic--madagascar{
+  background: url('../img/Madagascar.png');
+}
+
+.film__pic--prince{
+  background: url('../img/Prince.png');
+}
+
+.film__state{
+  font-size: 26px;
+  color:rgb(113,113,113);
+}
+
+.film__rating{
+  box-shadow: 0 0 1px 1px rgb(200,200,200);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 24px 0 16px;
+}
+
+.film__text{
+  padding:5px 24px 0 20px;
+}
+
+.film__rating-stars{
+  display: flex;
+}
+
+.film__description{
+color:rgb(172,170,170);
+  line-height: 19px;
+}
